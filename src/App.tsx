@@ -2,11 +2,7 @@ import { Header } from './sections/Header'
 import { TopMainImage } from './sections/TopMainImage'
 import { Hero } from './sections/Hero'
 import { AnnouncementSection } from './sections/AnnouncementSection'
-import { PromoDateSection } from './sections/PromoDateSection'
-import { NewsSection } from './sections/NewsSection'
 import { CampaignDetails } from './sections/CampaignDetails'
-import { TargetProductsSection } from './sections/TargetProductsSection'
-import { ApplySection } from './sections/ApplySection'
 import { InquirySection } from './sections/InquirySection'
 import { MembersSection } from './sections/MembersSection'
 import { PrizesSection } from './sections/PrizesSection'
@@ -20,18 +16,14 @@ function App() {
       <Header />
       <main>
         <TopMainImage />
-        <PromoDateSection />
-        <NewsSection />
         <AnnouncementSection />
+        <MembersSection />
         <Hero />
         <CampaignDetails />
-        <MembersSection />
-        <PrizesSection />
-        <TargetProductsSection />
-        <ApplySection />
-        <RulesSection />
-        <GameSection />
         <InquirySection />
+        <PrizesSection />
+        <GameSection />
+        <RulesSection />
       </main>
       <Footer />
     </div>
